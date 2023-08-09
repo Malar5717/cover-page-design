@@ -24,18 +24,18 @@ Write HTML and CSS Code for designing book cover page and execute them.
         .bookpage{
             width: 400px;
             height: 600px;
-            color:red;
+            color:white;
             margin-left: auto;
             margin-right: auto;
             padding: 20px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url(/static/images/back.jpg);
+            background-image: url(/static/images/cover.jpeg);
             background-size: cover;
         }
             
 
         .insight{
-            color: brown;
+            color: black;
 
         }
 
@@ -44,10 +44,10 @@ Write HTML and CSS Code for designing book cover page and execute them.
             width:100px;
         }
         .author{
-            color: white;
+            color: black;
             display: inline;
             position: relative;
-            color: red;
+            color:black;
             top:190px;
             
             font-family:Georgia;
@@ -72,9 +72,10 @@ Write HTML and CSS Code for designing book cover page and execute them.
             position: relative;
             top:155px;
             left:330px;
+            color: black;
         }
         .ed{
-            color:blue;
+            color:white;
             font-size: medium;
             font-family: Verdana;
             position:relative;
@@ -104,7 +105,7 @@ Write HTML and CSS Code for designing book cover page and execute them.
                 SEC INSIGHT
             </div>
             <div class="hrstyle">
-                <hr style="color: red;">
+                <hr style="color: white;">
             </div>
             <div class="booktitle">
                 <h1>Fundamentals of Web Application Development</h1></div>
@@ -115,10 +116,10 @@ Write HTML and CSS Code for designing book cover page and execute them.
                 <img src="/static/images/my.jpeg" width="130" height="145" alt="">
             </div>
             <div class="id">
-                <hr style="color: orange;">
+                <hr style="color:white;">
             </div>
             <div class="author">
-               <p><b>Sanjitha</b></p>
+               <p><b>Malar</b></p>
             </div>
             <div class="pub">
                 SEC
